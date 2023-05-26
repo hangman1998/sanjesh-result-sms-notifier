@@ -1,0 +1,20 @@
+{
+  "name": "sanjesh-result-sms-notifier",
+  "version": "1.0.0",
+  "description": "a simple JS script that watches sanjesh.org articles and notifies user of new articles",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node main.js"
+  },
+  "keywords": [],
+  "author": "Yousef Javaherian",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "lodash": "^4.17.21",
+    "node-cron": "^3.0.2"
+  },
+  "type": "module"
+}
