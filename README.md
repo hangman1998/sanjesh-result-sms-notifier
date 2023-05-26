@@ -28,4 +28,4 @@ by default this script checks `sanjesh.org` on start of every minute.
 update the `cron.schedule("* * * * *", checkSanjesh)` line to change the check rate.
 
 EXAMPLE:
-`cron.schedule("*/10 * * * *", checkSanjesh);`: makes the cron job run every once every 10 minutes.
+`cron.schedule("*/10 * * * *", checkSanjesh);`: makes the cron job run once every 10 minutes.
